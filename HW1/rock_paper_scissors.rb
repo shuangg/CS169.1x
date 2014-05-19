@@ -16,6 +16,8 @@ class RockPaperScissors
     end
   end
 
+
+  #This is totally incorrect!!
   def self.tournament_winner tournament
     if tournament[0][0].is_a? String
         return self.winner(tournament[0], tournament[1])
